@@ -36,3 +36,11 @@ Bonus :
     Créer une app avec streamlit qui affichera les informations météorologiques quand on sélectionne une ville (requêté en direct l'API pour avoir les informations en direct)
     Features de l'application : Carte intéractive, prévision à plusieurs jours, ajouter toutes les villes de France (celle disponible sur openweathermap), mettre votre application streamlit dans un docker, déployer votre application sur Azure, Intéraction entre streamlit et la BDD SQL
 
+
+## Configuration
+
+Le notebook lit la clé API OpenWeatherMap dans la variable d'environnement `OPENWEATHER_API_KEY` :
+
+```bash
+export OPENWEATHER_API_KEY="votre_cle_api"
+```
